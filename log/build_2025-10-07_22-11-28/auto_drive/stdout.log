@@ -1,0 +1,22 @@
+running develop
+running egg_info
+creating auto_drive.egg-info
+writing auto_drive.egg-info/PKG-INFO
+writing dependency_links to auto_drive.egg-info/dependency_links.txt
+writing entry points to auto_drive.egg-info/entry_points.txt
+writing requirements to auto_drive.egg-info/requires.txt
+writing top-level names to auto_drive.egg-info/top_level.txt
+writing manifest file 'auto_drive.egg-info/SOURCES.txt'
+reading manifest file 'auto_drive.egg-info/SOURCES.txt'
+writing manifest file 'auto_drive.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/bedylmz/Desktop/hw5_1/install/auto_drive/lib/python3.10/site-packages/auto-drive.egg-link (link to .)
+Installing drive script to /home/bedylmz/Desktop/hw5_1/install/auto_drive/lib/auto_drive
+
+Installed /home/bedylmz/Desktop/hw5_1/build/auto_drive
+running symlink_data
+creating /home/bedylmz/Desktop/hw5_1/install/auto_drive/share/ament_index
+creating /home/bedylmz/Desktop/hw5_1/install/auto_drive/share/ament_index/resource_index
+creating /home/bedylmz/Desktop/hw5_1/install/auto_drive/share/ament_index/resource_index/packages
+symbolically linking /home/bedylmz/Desktop/hw5_1/build/auto_drive/resource/auto_drive -> /home/bedylmz/Desktop/hw5_1/install/auto_drive/share/ament_index/resource_index/packages
+symbolically linking /home/bedylmz/Desktop/hw5_1/build/auto_drive/package.xml -> /home/bedylmz/Desktop/hw5_1/install/auto_drive/share/auto_drive

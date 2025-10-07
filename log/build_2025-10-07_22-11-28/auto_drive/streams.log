@@ -1,0 +1,24 @@
+[0.491s] Invoking command in '/home/bedylmz/Desktop/hw5_1/build/auto_drive': PYTHONPATH=/home/bedylmz/Desktop/hw5_1/build/auto_drive/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/bedylmz/Desktop/hw5_1/install/auto_drive/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/bedylmz/Desktop/hw5_1/build/auto_drive/build --no-deps symlink_data
+[0.687s] running develop
+[0.811s] running egg_info
+[0.811s] creating auto_drive.egg-info
+[0.812s] writing auto_drive.egg-info/PKG-INFO
+[0.812s] writing dependency_links to auto_drive.egg-info/dependency_links.txt
+[0.812s] writing entry points to auto_drive.egg-info/entry_points.txt
+[0.812s] writing requirements to auto_drive.egg-info/requires.txt
+[0.812s] writing top-level names to auto_drive.egg-info/top_level.txt
+[0.812s] writing manifest file 'auto_drive.egg-info/SOURCES.txt'
+[0.813s] reading manifest file 'auto_drive.egg-info/SOURCES.txt'
+[0.814s] writing manifest file 'auto_drive.egg-info/SOURCES.txt'
+[0.815s] running build_ext
+[0.815s] Creating /home/bedylmz/Desktop/hw5_1/install/auto_drive/lib/python3.10/site-packages/auto-drive.egg-link (link to .)
+[0.816s] Installing drive script to /home/bedylmz/Desktop/hw5_1/install/auto_drive/lib/auto_drive
+[0.816s] 
+[0.816s] Installed /home/bedylmz/Desktop/hw5_1/build/auto_drive
+[0.816s] running symlink_data
+[0.816s] creating /home/bedylmz/Desktop/hw5_1/install/auto_drive/share/ament_index
+[0.816s] creating /home/bedylmz/Desktop/hw5_1/install/auto_drive/share/ament_index/resource_index
+[0.816s] creating /home/bedylmz/Desktop/hw5_1/install/auto_drive/share/ament_index/resource_index/packages
+[0.816s] symbolically linking /home/bedylmz/Desktop/hw5_1/build/auto_drive/resource/auto_drive -> /home/bedylmz/Desktop/hw5_1/install/auto_drive/share/ament_index/resource_index/packages
+[0.816s] symbolically linking /home/bedylmz/Desktop/hw5_1/build/auto_drive/package.xml -> /home/bedylmz/Desktop/hw5_1/install/auto_drive/share/auto_drive
+[0.842s] Invoked command in '/home/bedylmz/Desktop/hw5_1/build/auto_drive' returned '0': PYTHONPATH=/home/bedylmz/Desktop/hw5_1/build/auto_drive/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/bedylmz/Desktop/hw5_1/install/auto_drive/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/bedylmz/Desktop/hw5_1/build/auto_drive/build --no-deps symlink_data
