@@ -1,0 +1,36 @@
+for every terminal: 
+	export TURTLEBOT3_MODEL=waffle
+	export RMW_IMPLEMENTATION=rmw_cyclonedds_cpp
+	source /opt/ros/humble/setup.bash
+	source /usr/share/colcon_argcomplete/hook/colcon-argcomplete.bash
+
+source your workspace:
+	source /home/bedylmz/Desktop/hw5_1/install/setup.bash
+	
+locate to opt/ros/humble/share/turtlebot3_navigation2/param
+	sudo gedit waffle.yaml
+	and find robot_model_type change that "differential" to "nav2_amcl::DifferentialMotionModel"
+	
+creating package steps:
+	mkdir workspace
+	mkdir src in workspace
+	colcon build
+	source setup.bash in install
+	locate src
+	ros2 pkg create pakageName --build-type ament_python --dependencies rclpy
+
+keep sync your code and environment:
+	colcon build --symlink-install
+
+run gazebo with turtlebot3: 
+	ros2 launch turtlebot3_gazebo turtlebot3_world.launch.py 
+	
+run cartographer for turtlebot3:
+	ros2 launch turtlebot3_cartographer cartographer.launch.py use_sim_time:=True
+	
+control turtlebot3 with your keyboard:
+	ros2 run turtlebot3_teleop teleop_keyboard
+	
+navigation2:
+	ros2 launch turtlebot3_navigation2 navigation2.launch.py use_sim_time:=True maps:=map/map_0.yaml
+
