@@ -45,7 +45,7 @@ In another terminal, run our package
 
 ---
 
-### **ScreenShots**
+### **Screenshots**
 
 Screenshot of Rviz while mapping manually with the robot
 ![mapping](ss/01.png)
